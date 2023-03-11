@@ -22,6 +22,7 @@ For everyone, else, we recommend compiling Cairo from source like so:
 $ rustup override set stable && rustup update
 
 # Clone the Cairo compiler in $HOME/Bin
+$ mkdir ~/Bin
 $ cd ~/Bin && git clone git@github.com:starkware-libs/cairo.git && cd cairo
 
 # Generate release binaries
