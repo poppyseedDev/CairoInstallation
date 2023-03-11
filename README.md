@@ -52,6 +52,24 @@ This will make available several binaries. The one we use is called `cairo-test`
 
 Follow the installation guide in [Scarb's Repository](https://github.com/software-mansion/scarb).
 
+Go to [Scarb's Releases](https://github.com/software-mansion/scarb/releases)
+
+For MacOS installation:
+```
+ # Download `scarb-v0.1.0-rc.0-x86_64-apple-darwin.tar.gz`
+ # extract file
+ 
+ $ cd ~/Downloads/scarb-v0.1.0-rc.0-x86_64-apple-darwin/bin
+ $ echo $PATH.       # to see if you have /usr/bin/local
+ $ sudo cp scarb /usr/bin/local
+ 
+ # if you do not have permissions
+ $ xattr -d com.apple.quarantine /usr/bin/local/scarb
+ 
+ # new tab
+ $ scarb --version
+```
+
 ### Step 4: Setup Language Server
 
 #### VS Code Extension
